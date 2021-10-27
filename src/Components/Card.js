@@ -20,7 +20,7 @@ export default function MediaCard(props) {
   useEffect(() => {
     getData()
     return () => {};
-  },[]);
+  },[props.name]);
 
   async function getData() {
     try {

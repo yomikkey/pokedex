@@ -1,8 +1,10 @@
 import "./App.css";
+// import { PaginationBar } from "./Components/PaginationBar";
 
 import Navbar from "./Components/Navbar";
 import Container from '@mui/material/Container';
 import { Pokemon } from "./Components/Pokemon";
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +16,7 @@ function App() {
           <Pokemon />
         </div>
       </Container>
+
     </div>
   );
 }
